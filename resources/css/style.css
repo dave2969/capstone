@@ -1,5 +1,148 @@
-/**/
+/*  
 
 div {
   border: 1px solid purple;
+}
+
+/*Global Styles*/
+
+html {
+  font-size: 16px;
+  color: #5A5A5A;
+}
+
+body {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.container,
+.left {
+  border: 1px solid #E0E0E0;
+}
+
+/*Header Styles*/
+
+#header {
+  height: 4rem;
+  width:100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#logo {
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo p {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#logo span {
+  font-weight: 800;
+  color: black;
+}
+
+.menu {
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+/*Banner Styles*/
+
+.banner {
+  padding-top: 4rem;
+  background-color: #E0E0E0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  width: 22rem;
+}
+
+.right .info h2,
+.left .info h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+
+.right .info p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#button {
+  background-color: darkslategray;
+  padding: 0.5rem;
+  text-align: center;
+  width: 18rem;
+  color: white;
+  transition: background-color 750ms linear;
+}
+
+#button:hover {
+  background-color: black;
+}
+
+/*Learning Styles*/
+
+.citation {
+  margin: 2rem 0;
+}
+
+.learning .right {
+  width: 423px;
+}
+
+.right .image {
+  margin: 1rem;
+  width: 35%;
+}
+
+.top,
+.middle,
+.bottom {
+  background-color: white;
+}
+
+.top:hover,
+.middle:hover,
+.bottom:hover {
+  background-color: #E0E0E0;
 }
