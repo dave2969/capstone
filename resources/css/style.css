@@ -95,6 +95,11 @@ body {
     display: none;
   }
 
+  #header {
+    display: none;
+  }
+
+ 
   .mobileheader {
     display: flex;
     justify-content: space-around;
@@ -112,7 +117,7 @@ body {
 
 .banner {
   padding-top: 4rem;
-  background-color: #E0E0E0;
+  background-color: #E0F9FF;
 }
 
 .banner .container {
@@ -149,7 +154,7 @@ body {
 }
 
 #button {
-  background-color: darkslategray;
+  background-color: #5A5A5A;
   padding: 0.5rem;
   text-align: center;
   width: 18rem;
@@ -158,7 +163,8 @@ body {
 }
 
 #button:hover {
-  background-color: black;
+  background-color: darkblue;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -212,7 +218,7 @@ body {
 .top:hover,
 .middle:hover,
 .bottom:hover {
-  background-color: #E0E0E0;
+  background-color: #E0F9FF;
 }
 
 .learning .info h2 {
@@ -268,7 +274,7 @@ body {
 /*Learning2 Styles*/
 
 .learning2 {
-  background-color: #E0E0E0;
+  background-color: #E0F9FF;
 }
 
 .learning2 .container {
@@ -323,9 +329,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .learning2 {
+  /*.learning2 {
     background-color: white;
-  }
+  }*/
   
   .learning2 .heading {
     font-size: 2rem;
@@ -333,8 +339,14 @@ body {
 
   .course {
     width: auto;
-    background-color: lightgray;
+    background-color: lightblue;
     margin-top: 0.5rem;
+    transition: background-color 750ms linear, color 750ms linear;
+  }
+
+  .course:hover {
+    background-color: darkblue;
+    color: white;
   }
 
   .learning2 .info h2 {
