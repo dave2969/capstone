@@ -272,6 +272,12 @@ body {
     display: none;
   }
 
+  .learning .container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .mobilelearning {
     display: flex;
     flex-direction: column;
@@ -282,6 +288,7 @@ body {
   .bottom {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .mobilelearning .image {
