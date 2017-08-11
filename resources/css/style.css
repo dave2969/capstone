@@ -85,7 +85,23 @@ body {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 768px) {
+#signin {
+  padding: 1rem;
+  background-color: #5A5A5A;
+  color: white;
+  border-radius: 25px;
+  transition: background-color 250ms linear;
+}
+
+#signin:hover {
+  background-color: blue;
+}
+
+#signin a {
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
   #logo p,
   #logo img {
     display: none;
@@ -109,8 +125,15 @@ body {
   }
   
   .mobileheader li {
+    padding: 0.5rem;
     display: inline-block;
+    transition: background-color 250ms linear;
   }
+
+  .mobileheader li:hover{
+    background-color: lightblue;
+  }
+
 }
 
 /*Banner Styles*/
@@ -163,11 +186,11 @@ body {
 }
 
 #button:hover {
-  background-color: darkblue;
+  background-color: blue;
   color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .banner {
     padding: 0;
   }
@@ -243,7 +266,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .learning .left,
   .learning .right {
     display: none;
@@ -328,7 +351,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   /*.learning2 {
     background-color: white;
   }*/
@@ -345,7 +368,7 @@ body {
   }
 
   .course:hover {
-    background-color: darkblue;
+    background-color: blue;
     color: white;
   }
 
@@ -412,7 +435,7 @@ video {
   margin-bottom: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) {  
+@media only screen and (max-width: 1024px) {  
   .thesis .right,
   .thesis .info {
     display: none;
@@ -455,7 +478,7 @@ footer {
   margin: 0 0.5rem;
 }
 
-@media only screen and (max-width: 768px) {  
+@media only screen and (max-width: 1024px) {  
   #terms {
     display: none;
   }
