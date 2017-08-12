@@ -1,5 +1,5 @@
 /*
-
+Visual Design
 div {
   border: 1px solid purple;
 }
@@ -14,12 +14,8 @@ html {
 body {
   padding-top: 0;
   margin-top: 0;
+  font-family: 'Bree Serif', serif;
 }
-
-/*.container,
-.left {
-  border: 1px solid #E0E0E0;
-}*/
 
 .right {
   display: flex;
@@ -114,7 +110,6 @@ body {
   #header {
     display: none;
   }
-
  
   .mobileheader {
     display: flex;
@@ -326,6 +321,11 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.courses a {
+  text-decoration: none;
+  color: #5A5A5A;
+}
+
 .toprow,
 .bottomrow {
   display: flex;
@@ -351,11 +351,15 @@ body {
 }
 
 .course .info h3 {
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 0.4rem 0;
 }
 
 .course .info p {
   margin-bottom: 1.5rem;
+}
+
+.course .info a {
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -389,7 +393,15 @@ body {
     flex-direction: column;
   }
 
+  .course .info a {
+    display: block;
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
   .learning2 h3,
+  .learning2 .courses h2,
   .learning2 p,
   .learning2 img {
     display: none;
@@ -425,6 +437,11 @@ body {
   margin-top: 1rem;
 }
 
+.exhibit a {
+  text-decoration: none;
+  color: #5A5A5A;
+}
+
 video {
   width: 100%;
   height: auto;
@@ -440,6 +457,7 @@ video {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1024px) {  
